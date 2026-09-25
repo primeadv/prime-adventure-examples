@@ -1,0 +1,21 @@
+{
+  "title": "Prime Adventure duplicate quote lesson",
+  "data": "original fictional example",
+  "files": [
+    {
+      "name": "START-HERE.md",
+      "sha256": "355c69a6fce1051d7cecb2110bc9d684a21e24c17577060ad795baad3ba2ce81",
+      "bytes": 1676
+    },
+    {
+      "name": "duplicate-quote-practice.xlsx",
+      "sha256": "7d5ea0713d1f18939a64f82e311f6f0df8f1acce7aa7548d08d18325514d3611",
+      "bytes": 4747
+    },
+    {
+      "name": "quotes.csv",
+      "sha256": "fecf175269050d25a9efbcec52be06538cfeab955ac79ace892dee6ec2feb8cf",
+      "bytes": 47
+    }
+  ]
+}
