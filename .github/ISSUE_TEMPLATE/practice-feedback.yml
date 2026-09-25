@@ -1,0 +1,33 @@
+name: Practice result and repeated work
+description: Share what happened when you tried the example and which step still takes time.
+title: "Practice feedback: "
+body:
+  - type: markdown
+    attributes:
+      value: "This is public. Use invented examples, not private supplier files or customer details. Downloading the workbook does not require an account."
+  - type: textarea
+    id: tried
+    attributes:
+      label: What did you try, and what happened?
+      description: Include your spreadsheet app and whether this was the fictional practice file or your own adapted check. Describe errors in words or invented rows.
+    validations:
+      required: true
+  - type: textarea
+    id: repeated_step
+    attributes:
+      label: Which manual step do you still repeat?
+      description: Explain the task, how often it occurs, and what you do now. If the example solved your task, say so.
+    validations:
+      required: false
+  - type: dropdown
+    id: discovery
+    attributes:
+      label: Where did you find this example?
+      options:
+        - Prime Adventure YouTube video or channel
+        - GitHub
+        - Search engine
+        - Somewhere else
+        - Prefer not to say
+    validations:
+      required: false

@@ -33,8 +33,14 @@ The lookup is deliberately separate from the duplicate check. Returning a price 
 
 ## What was verified
 
-The workbook was recalculated with the available LibreOffice engine for duplicate, unique, missing, blank and lowercase search cases. This does not establish compatibility with every spreadsheet application or import setting.
+The workbook was recalculated with LibreOffice and checked by changing the inputs in Excel for Mac 16.70 for duplicate, unique, missing, blank and lowercase search cases. This does not establish compatibility with every spreadsheet application or import setting.
 
 This file is a lesson, not a store importer or a complete price-validation system. Keep both conflicting source quotes until the supplier clarifies which is valid. No account connection, macros or real customer data is required.
+
+## What still takes time?
+
+After trying the check, [tell us which step you still repeat](https://github.com/primeadv/prime-adventure-examples/issues/new?template=practice-feedback.yml). For example: matching a fresh supplier file to the same catalog each week, or resolving two different prices for one code.
+
+The feedback form requires a GitHub account; the download does not. Describe your workflow using invented examples, without private supplier files or customer details. Feedback helps us choose what to demonstrate next and does not create a support or feature-delivery commitment.
 
 Channel: https://www.youtube.com/@WatchPrimeAdventure
