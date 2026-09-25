@@ -29,6 +29,8 @@ The formula in F6 is:
 COUNTIFS ignores letter case. This lesson uses the same uppercase code in both rows. It also treats `*` and `?` as wildcards; adapt and test the criteria for codes containing these characters.
 The source range covers only two rows. Extend it for a longer list. Keep product codes as text when leading zeros matter.
 
+Text storage alone does not make COUNTIFS an exact text matcher. In a separate Excel for Mac test, text `00123` and `123` were both counted as matches. See the [tested CSV import and matching example](import-codes/README.md) before adapting this lesson to numeric-looking identifiers. The video uses the alphanumeric code `DUP-S`.
+
 The lookup is deliberately separate from the duplicate check. Returning a price does not establish that the match is unique or that the price is correct.
 
 ## What was verified
