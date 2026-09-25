@@ -26,7 +26,7 @@ The formula in F6 is:
 =IF(D6="","",COUNTIFS($A$6:$A$7,D6))
 ```
 
-COUNTIFS ignores letter case. This lesson uses the same uppercase code in both rows.
+COUNTIFS ignores letter case. This lesson uses the same uppercase code in both rows. It also treats `*` and `?` as wildcards; adapt and test the criteria for codes containing these characters.
 The source range covers only two rows. Extend it for a longer list. Keep product codes as text when leading zeros matter.
 
 The lookup is deliberately separate from the duplicate check. Returning a price does not establish that the match is unique or that the price is correct.
